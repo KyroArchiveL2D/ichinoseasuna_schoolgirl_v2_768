@@ -1,0 +1,109 @@
+{
+  "SettingModel": {
+    "version": 5,
+    "skel": "CH0281_home.skel",
+    "atlas": "CH0281_home.atlas",
+    "eyeTouch": "Touch_Me",
+    "idol": "Idle_01",
+    "x": 640,
+    "y": 810,
+    "scale": 0.45,
+    "angle": 0,
+    "bgmVolume": 0.2,
+    "talkVolume": 0.5,
+    "showTouch": false,
+    "panelDisplay": false,
+    "showTalkDialog": true,
+    "textX": 810,
+    "textY": 460,
+    "textSize": 16,
+    "autoTalk": 0,
+    "resolution": "2k",
+    "startAnimation": "Start_Idle_01",
+    "startScene": true,
+    "language": "Bahasa Indonesia"
+  },
+  "EventInfos": [
+    {
+      "BoneName": "R_UpperArm",
+      "Width": 1500,
+      "Height": 800,
+      "Animations": [
+        "Talk_01_M",
+        "Talk_02_M",
+        "Talk_03_M",
+        "Talk_04_M",
+        "Talk_05_M"
+      ],
+      "AnimationIndex": 10,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": true
+    },
+
+    {
+      "BoneName": "R_F_hair_02",
+      "Width": 800,
+      "Height": 500,
+      "Animations": ["Pat_01_M"],
+      "AnimationIndex": 20,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": false
+    }
+  ],
+  "AnimationsTexts": {
+    "中文": {
+      "sound/CH0281_MemorialLobby_1_1": "锵锵！老师和明日奈紧密联系在一起了。",
+      "sound/CH0281_MemorialLobby_1_2": "怎么样？这下不论在哪里就都能抓住老师",
+      "sound/CH0281_MemorialLobby_2_1": "怎么了？挂着这种表情",
+      "sound/CH0281_MemorialLobby_2_2": "嗯？搞反了吗？我被牵着会更好？",
+      "sound/CH0281_MemorialLobby_3_1": "啊咧，啊，啊啊确实是这样呢",
+      "sound/CH0281_MemorialLobby_3_2": "啊哈，哈哈哈！确实很奇怪",
+      "sound/CH0281_MemorialLobby_4_1": "好像真的是这样",
+      "sound/CH0281_MemorialLobby_4_2": "就像和汪汪酱散步一样",
+      "sound/CH0281_MemorialLobby_5_1": "那么，现在的老师就是明日奈的汪汪酱了呢",
+      "sound/CH0281_MemorialLobby_5_2": "明日奈的汪酱也会汪汪叫的吧",
+      "sound/CH0281_MemorialLobby_5_3": "哼哼，如果好好学汪汪叫的话我给你奖励，呢！"
+    },
+    "日本語": {
+      "sound/CH0281_MemorialLobby_1_1": "じゃーん！先生とアスナが、繋がっちゃいました！",
+      "sound/CH0281_MemorialLobby_1_2": "どう？これならどこにいるのか、分かるんじゃない？",
+      "sound/CH0281_MemorialLobby_2_1": "…どうしたの？そんな顔して。",
+      "sound/CH0281_MemorialLobby_2_2": "ん？逆、だっけ？私に巻いたほうがよかった？",
+      "sound/CH0281_MemorialLobby_3_1": "…あれ？…あ、ああ！たしかに！",
+      "sound/CH0281_MemorialLobby_3_2": "…あはっ、あははは！ヘンなの！",
+      "sound/CH0281_MemorialLobby_4_1": "これ、ほんとに…",
+      "sound/CH0281_MemorialLobby_4_2": "ワンちゃんと散歩してるみたい！",
+      "sound/CH0281_MemorialLobby_5_1": "じゃあ…今の先生は、アスナのワンちゃんだね？",
+      "sound/CH0281_MemorialLobby_5_2": "アスナのワンちゃんは、ワンワンって言えるかな？",
+      "sound/CH0281_MemorialLobby_5_3": "ふふっ！ちゃんと言えたらご褒美あげるから、ね？"
+    },
+    "Bahasa Indonesia": {
+      "sound/CH0281_MemorialLobby_1_1": "Jaaaan~! Sekarang aku dan Sensei udah nyambung terus, lho~!",
+      "sound/CH0281_MemorialLobby_1_2": "Gimana? Jadi di mana pun kamu berada, aku bisa langsung nemuin kamu, deh~",
+      "sound/CH0281_MemorialLobby_2_1": "...Eh? Kenapa? Kok ekspresinya gitu?",
+      "sound/CH0281_MemorialLobby_2_2": "Hmm? Salah arah ya? Harusnya aku yang dililitin talinya?",
+      "sound/CH0281_MemorialLobby_3_1": "...Hah? ...Ah! Iya juga sih!",
+      "sound/CH0281_MemorialLobby_3_2": "Ahaha~! Aneh banget deh ini!",
+      "sound/CH0281_MemorialLobby_4_1": "Ini beneran kerasa kayak...",
+      "sound/CH0281_MemorialLobby_4_2": "lagi jalan-jalan bareng anjing~!",
+      "sound/CH0281_MemorialLobby_5_1": "Berarti... sekarang kamu itu anjing peliharaanku ya, Sensei~?",
+      "sound/CH0281_MemorialLobby_5_2": "Anjingnya Asuna bisa 'guk guk' juga nggak, ya~?",
+      "sound/CH0281_MemorialLobby_5_3": "Ehehe~ Kalau bisa nurut dan menggonggong yang lucu, aku kasih hadiah spesial deh~!"
+    },
+    "Tiếng Việt": {
+      "sound/CH0281_MemorialLobby_1_1": "Jaan! Sensei và em, đã trở lên gắn kết hơn rồi đó!",
+      "sound/CH0281_MemorialLobby_1_2": "Sao nào! Giờ em có thể gặp thầy bất kể thầy đang ở đâu rồi đó!",
+      "sound/CH0281_MemorialLobby_2_1": "Có chuyện gì sao? với biểu cảm đó",
+      "sound/CH0281_MemorialLobby_2_2": "Huh? Phải ngược lại á? Em có lên quấn quanh mình không á?",
+      "sound/CH0281_MemorialLobby_3_1": "....Àrế?..... oh, óhhh! quả đúng là vậy!",
+      "sound/CH0281_MemorialLobby_3_2": "Aha.....Ahahaha..... kỳ lạ quá!",
+      "sound/CH0281_MemorialLobby_4_1": "Cảm giác thật sự......",
+      "sound/CH0281_MemorialLobby_4_2": "Như chủ dắt đi dạo vậy!",
+      "sound/CH0281_MemorialLobby_5_1": "Vậy là.....bây giờ Sensei là, cục cưng của Asuna em đúng không?",
+      "sound/CH0281_MemorialLobby_5_2": "Là cục cưng của em, hãy ''gâu gâu'' đi nào?",
+      "sound/CH0281_MemorialLobby_5_3": "Hehi! Nếu thầy sủa đúng cách thì sẽ được thưởng đó, nhé!"
+    }
+  }
+}
